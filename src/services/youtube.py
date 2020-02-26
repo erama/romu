@@ -39,10 +39,10 @@ class Youtube:
     def run(self):
         try:
             credentials = Credentials.build()
-
+            how = ['ComoLoHago','romu','ComentarAutomaticame','Comentar']
             with open(self.TEXT_FILE) as erama:
                 for eramaline in erama:
-                    comment = eramaline +" Gracias ! " + "Romu -> "+str(randint(2,303))
+                    comment = eramaline +"-> https://nxm.us/"+how[randint(0,3)]
                     self.comment_video(credentials, self.VIDEO_ID, comment  )
                     #self.like_video(credentials, latest_video_id)
                     print("Comentario publicado: " + comment)
