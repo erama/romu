@@ -16,7 +16,7 @@ class Clock:
     def wait_and_log(self):
         time.sleep(self.TICK_TIME)
 
-        print("Comensamos")
+        print("Comenzamos")
 
     def cron(self):
         try:
