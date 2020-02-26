@@ -1,5 +1,6 @@
 # Byte-compiled / optimized
 __pycache__/
+credentials/token.pickle
 *.py[cod]
 
 # Logs:

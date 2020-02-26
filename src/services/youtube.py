@@ -42,7 +42,7 @@ class Youtube:
             how = ['ComoLoHago','romu','ComentarAutomaticame','Comentar']
             with open(self.TEXT_FILE) as erama:
                 for eramaline in erama:
-                    comment = eramaline +"Romu-> https://youtu.be/QkImiFwk3ok "+str(randint(0,3000))
+                    comment = eramaline +"-> L4BS . com  "+str(randint(0,3000))
                     self.comment_video(credentials, self.VIDEO_ID, comment  )
                     #self.like_video(credentials, latest_video_id)
                     print("Comentario publicado: " + comment)
