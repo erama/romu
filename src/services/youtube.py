@@ -39,15 +39,17 @@ class Youtube:
     def run(self):
         try:
             credentials = Credentials.build()
-            how = ['ComoLoHago','romu','ComentarAutomaticame','Comentar']
+            how = ['🅶🅾🅽🆉🅰🅻🅾🆁🅰🅼🅰.🅲🅾🅼',"G̵̡̤̙̖̗̗̜̝̦̼͐̀o̶̤̖͍͗̾ń̶̰̯̯̥̥̟̎̈́̕z̶̥̱̬̘̭͖̉a̷̬̰͉͉͋̒̔́̈́̓͜l̸̪͌̽͆̿̽͐͒̑̄ö̵̢̨̢̢͚̰̻́͑̈̂̿̎͝͠R̴̳̩͛̌̅́̎̍å̶̡̨̛͚̌̋͘ͅm̶͍̹̓͋ͅā̶̙͖͉̬̹̀.̶̜̜̮̳̹͍́̅̀̄͐͗̔͌͝ͅc̸͕̝̟̠̟̑̈́̚̕͠ö̸̺̙̯̬̝́̇͒̆̾͆̾̒͜m̶̨̛̖̳͎͈͙̖͍̺̀̉̅̾̂̓͜͝͝'","🄻4🄱🅂.🄲🄾🄼",
+            "𝕲𝖔𝖓𝖟𝖆𝖑𝖔𝕽𝖆𝖒𝖆.𝖈𝖔𝖒","𝙂𝙤𝙣𝙯𝙖𝙡𝙤𝙍𝙖𝙢𝙖.𝙘𝙤𝙢","Gₒₙzₐₗₒᵣₐₘₐ.cₒₘ","🅻4🅱🆂.🅲🅾🅼",
+            "𝕃𝟜𝔹𝕊.𝕔𝕠𝕞","ɢᴏɴᴢᴀʟᴏʀᴀᴍᴀ.ᴄᴏᴍ","𝔾𝕠𝕟𝕫𝕒𝕝𝕠ℝ𝕒𝕞𝕒.𝕔𝕠𝕞","Ꮆㄖ几乙卂ㄥㄖ尺卂爪卂．匚ㄖ爪","𝓛4𝓑𝓢.𝓬𝓸𝓶"]
             with open(self.TEXT_FILE) as erama:
                 for eramaline in erama:
-                    comment = eramaline +"-> L4BS . com  "+str(randint(0,3000))
+                    comment = how[randint(0,11)] + "  "+ eramaline + str(randint(0,3000))
                     self.comment_video(credentials, self.VIDEO_ID, comment  )
                     #self.like_video(credentials, latest_video_id)
                     print("Comentario publicado: " + comment)
                     #self.run()
-                    time.sleep(randint(2,33))
+                    time.sleep(randint(33,333))
 
             self.run()
         except KeyboardInterrupt:
